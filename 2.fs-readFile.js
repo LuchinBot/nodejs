@@ -1,6 +1,4 @@
-const {
-    error
-} = require('node:console')
+
 const fs = require('node:fs') //a aparti de node 16 se recomienda node:fs
 
 console.log('Leyendo el Primer Archivo')
