@@ -1,25 +1,19 @@
 {
   "name": "nodejs",
   "version": "1.0.0",
-  "description": "Aprender NodeJs",
-  "main": "index.js",
+  "main": "Class2/2.routing.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon Class2/2.routing.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/luchinbot/nodejs.git"
-  },
-  "keywords": [
-    "NodeJs",
-    "LuchinBot"
-  ],
-  "author": "Luis José HIdalgo Rodriguez",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "dependencies": {
-    "picocolors": "1.0.1"
-  },
+  "description": "",
   "devDependencies": {
+    "nodemon": "^3.1.3",
     "standard": "^17.1.0"
+  },
+  "eslintConfig": {
+    "extends": "standard"
   }
 }
