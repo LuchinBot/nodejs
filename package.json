@@ -1,9 +1,11 @@
 {
   "name": "nodejs",
   "version": "1.0.0",
-  "main": "Class2/2.routing.js",
+  "main": "Class2/3.express.js",
   "scripts": {
-    "dev": "nodemon Class2/2.routing.js"
+    "dev:1": "nodemon Class2/1.http.js",
+    "dev:2": "nodemon Class2/2.routing.js",
+    "dev:3": "nodemon --watch Class2/3.express.js"
   },
   "keywords": [],
   "author": "",
@@ -15,5 +17,8 @@
   },
   "eslintConfig": {
     "extends": "standard"
+  },
+  "dependencies": {
+    "express": "4.19.2"
   }
 }
